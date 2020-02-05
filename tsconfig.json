@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "rootDir": "src",
+        "outDir": "build/dist",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es6"],
+        "allowJs": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src"]
+}

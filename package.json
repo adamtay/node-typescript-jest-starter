@@ -1,0 +1,36 @@
+{
+    "name": "node-typescript-jest-starter",
+    "version": "1.0.0",
+    "description": "Starter template utilizing node, typescript, jest",
+    "main": "src/index.ts",
+    "repository": "https://github.com/adamtay/node-typescript-jest-starter.git",
+    "author": "Adam Tay",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon src/index.ts",
+        "jest": "jest",
+        "jest:watch": "jest --watch",
+        "jest:snapshot": "jest --updateSnapshot",
+        "prettier:fix": "prettier --config .prettierrc.js --fix **/*.{ts,js,json,md}",
+        "eslint:fix": "eslint . --ext .ts,.js --ignore-path .gitignore --fix"
+    },
+    "devDependencies": {
+        "@types/node": "^13.7.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-jest": "^23.6.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "husky": "^4.2.1",
+        "jest": "^25.1.0",
+        "lint-staged": "^10.0.7",
+        "prettier": "^1.19.1",
+        "ts-jest": "^25.2.0"
+    },
+    "dependencies": {
+        "nodemon": "^2.0.2",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
+    }
+}
