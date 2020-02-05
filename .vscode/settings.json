@@ -23,5 +23,6 @@
         "**/.svn": true,
         "**/CVS": true,
         "node_modules/": true
-    }
+    },
+    "typescript.validate.enable": true
 }
