@@ -11,11 +11,13 @@
         "jest": "jest",
         "jest:watch": "jest --watch",
         "jest:snapshot": "jest --updateSnapshot",
-        "prettier:fix": "prettier --config .prettierrc.js --fix **/*.{ts,js,json,md}",
-        "eslint:fix": "eslint . --ext .ts,.js --ignore-path .gitignore --fix"
+        "eslint": "eslint . --ext .ts,.js --ignore-path .gitignore --fix",
+        "prettier": "prettier --config .prettierrc.js --fix src/**/*.{ts,json,md}"
     },
     "devDependencies": {
         "@types/node": "^13.7.0",
+        "@typescript-eslint/eslint-plugin": "^2.19.0",
+        "@typescript-eslint/parser": "^2.19.0",
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-config-prettier": "^6.10.0",
