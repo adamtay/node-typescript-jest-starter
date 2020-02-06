@@ -12,7 +12,7 @@
         "jest:watch": "jest --watch",
         "jest:snapshot": "jest --updateSnapshot",
         "eslint": "eslint . --ext .ts,.js --ignore-path .gitignore --fix",
-        "prettier": "prettier --config .prettierrc.js --fix src/**/*.{ts,json,md}"
+        "prettier": "prettier --config .prettierrc.js --write src/**/*.{ts,json,md}"
     },
     "devDependencies": {
         "@types/jest": "^25.1.1",
